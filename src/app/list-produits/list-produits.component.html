@@ -1,0 +1,31 @@
+<div  class="container"> 
+<p></p>
+<p></p>
+<p></p>
+</div>
+<div class="container" > 
+    <div class="card"> 
+        <h3 class="text-center" >Product List</h3>
+        <div class="card-body" >
+            <table class="table table-striped"> 
+                <thead>
+                    <th> Nom</th>
+                    <th> Quantite </th>
+                    <th> Prix</th>
+                    <th> Actions</th>
+                </thead>
+    <tbody> 
+        <tr *ngFor ="let produit of produits " > 
+             <td> {{produit.nom}} </td>
+            <td> {{produit.quantite}} </td>
+            <td> {{produit.prix}} </td>
+            <td> 
+            <button (click)="ModifierProduit(produit.id)" class="btn primary-btn "><a>Modifier</a></button>
+            <button (click)="SupprimerProduit(produit.id)" class="btn primary-btn ">Supprimer</button>
+            </td>
+        </tr>
+    </tbody>
+            </table> 
+    </div>
+</div>
+</div>

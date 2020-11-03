@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ConfledisAngular"
+    }
+  },
+  "defaultProject": "ConfledisAngular",
+  "cli": {
+    "analytics": "82a8097b-e49a-458f-9485-fe631bfaa8c9"
+  }
 }
