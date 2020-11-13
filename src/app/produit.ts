@@ -3,4 +3,5 @@ export class Produit {
    nom: string; 
    quantite: BigInteger; 
    prix:Float32Array; 
+
 }

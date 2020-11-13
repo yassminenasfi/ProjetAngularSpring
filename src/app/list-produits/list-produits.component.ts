@@ -9,6 +9,8 @@ import { ProduitService } from '../produit.service';
 })
 export class ListProduitsComponent implements OnInit {
   produits: Produit[];
+  produit: Produit;
+  nom : string;
   constructor(private produitService: ProduitService,
      private router: Router ) { }
 

@@ -2,7 +2,7 @@
 <nav class="nav-menu">
     <ul>
         <li class = "nav-item">
-            <a routerLink="" routerLinkActive="active" class="nav-link" >Accueil</a>
+            <a routerLink="accueil" routerLinkActive="active" class="nav-link" >Accueil</a>
         </li>
         <li class = "nav-item">
             <a routerLink="Listdesproduits" routerLinkActive="active" class="nav-link" >Liste des produits</a>
@@ -19,9 +19,66 @@
     <router-outlet></router-outlet>
 
 </div>
-<footer class = "footer">
-    <div class = "container">
-        <span>All Rights Reserved 2020 @JavaGuides</span>
+ 
+<footer class="footer-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="fs-about">
+                    <div class="fa-logo">
+                        <a href="#"><img src="/assets/img/logo.png.png" alt=""></a>
+                    </div>
+                   
+                    <div class="fa-social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa  fa-envelope-o"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="fs-widget">
+                    <h5>Help</h5>
+                    <ul>
+                       
+                        <li><a href="#">Contact Support</a></li>
+                        <li><a href="#">
+                            Base de connaissances</a></li>
+                        <li><a href="#">
+                            Carrières</a></li>
+                        <li><a href="#">
+                            FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-sm-6">
+                <div class="fs-widget">
+                    <h5>Links</h5>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Crée Produit</a></li>
+                        <li><a href="#">Liste des produits </a></li>
+                        <li><a href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="fs-widget">
+                    <h5>Newsletter</h5>
+                    <p>Deserunt mollit anim id est laborum.</p>
+                    <form action="#" class="subscribe-form">
+                        <input type="text" placeholder="Email">
+                        <button class = "btn btn-ajout" type ="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-text">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://www.societe.com/etablissement/confledis-85041295800017.html" target="_blank">Confledis</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+        </div>
     </div>
 </footer>
-  

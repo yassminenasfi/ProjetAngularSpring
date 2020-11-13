@@ -24,4 +24,7 @@ export class ProduitService {
   SupprimerProduit(id: BigInteger):Observable<Object>{
     return this.http.delete(`${this.baseUrl}/${id}`);
   }
+  AfficherProduitByNom(nom: string): Observable<Produit[]>{
+    return this.http.get<Produit[]>(`${this.baseUrl}/${nom}`);
+  }
 }

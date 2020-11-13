@@ -7,18 +7,23 @@ import { ListProduitsComponent } from './list-produits/list-produits.component';
 import { EnregistrerproduitComponent } from './enregistrerproduit/enregistrerproduit.component';
 import { FormsModule} from '@angular/forms';
 import { ModifierProduitComponent } from './modifier-produit/modifier-produit.component';
+import { AccueilComponent } from './accueil/accueil.component';
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
 @NgModule({
   declarations: [
     AppComponent,
     ListProduitsComponent,
     EnregistrerproduitComponent,
-    ModifierProduitComponent
+    ModifierProduitComponent,
+    AccueilComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    Ng2SearchPipeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
